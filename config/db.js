@@ -1,5 +1,4 @@
 import dotenv from "dotenv";
-import http from "http";
 import { neon } from "@neondatabase/serverless";
 
 dotenv.config();
