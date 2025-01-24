@@ -1,29 +1,29 @@
-POST http://localhost:3333/trucks
+POST http://localhost:3000/api/trucks
 Content-Type: application/json
 
 {
-    "model": "Mercedes",
-    "license_plate": "QJK4A93",
+    "model": "BMWw",
+    "license_plate": "QJK4A97",
     "year": "2024",
     "operation_status": "available"
 }
 
 ###
 
-GET http://localhost:3333/trucks?search=
+GET http://localhost:3000/api/trucks?search=
 
 ###
 
-PUT http://localhost:3333/trucks/1
+PUT http://localhost:3000/api/trucks/1
 Content-Type: application/json
 
 {
-    "model": "BMW",
+    "model": "BMW X20",
     "license_plate": "QJK4A94",
-    "year": "2025",
-    "operation_status": "available"
+    "year": "2035",
+    "operation_status": "coming_soon"
 }
 
 ###
 
-DELETE http://localhost:3333/trucks/
+DELETE http://localhost:3000/api/trucks/3
